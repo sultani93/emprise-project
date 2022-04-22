@@ -1,0 +1,1240 @@
+@media screen and (max-width: 1200px) {
+  .logo {
+    font-size: 28px;
+  }
+  .header-nav {
+    margin-left: 36px;
+  }
+  .header-nav ul li:not(:last-child) {
+    margin-right: 24px;
+  }
+  .search-icon {
+    margin-bottom: 5px;
+  }
+  .sign-btn {
+    padding: 7px 14px;
+    font-size: 14px;
+  }
+  .header-sign a {
+    margin-right: 28px;
+  }
+  .country-select .country-text .item h1 {
+    font-size: 64px;
+    line-height: 80px;
+  }
+  .country-select .nepal-country {
+    height: 35vw;
+  }
+  .country-select .nepal-country img {
+    border-radius: 16px;
+  }
+  .country-select .country-text {
+    padding-top: 60px;
+  }
+  .world-tour {
+    padding: 64px;
+  }
+  //SEARCH PAGE
+  .xl-none {
+    display: none;
+  }
+
+  // Tour guide
+  .gallery-left li {
+    height: 10vw;
+  }
+  .gallery-main {
+    height: 42vw;
+  }
+  .gallery-left img {
+    border-radius: 8px;
+  }
+  .price-form .datepicker-wrap input {
+    min-width: 100%;
+  }
+  .sandy-wrap {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .sidebar-nav {
+    width: 30vw;
+  }
+  .sidebar-menu-items li {
+    padding: 12px !important;
+  }
+  .header-nav ul,
+  .header-sign a,
+  .sign-btn {
+    display: none;
+  }
+  .header-sign {
+    justify-content: flex-end;
+    width: 100%;
+  }
+  #navMenu {
+    display: block !important;
+  }
+  .country-select .country-text .item h1 {
+    font-size: 42px;
+    line-height: 64px;
+  }
+  .country-select .country-text {
+    padding-left: 60px;
+  }
+  .country-tour.owl-theme .owl-nav {
+    bottom: -105px;
+  }
+  .pay-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .payment {
+    margin-top: 30px;
+  }
+  .country-bottom {
+    padding: 18px;
+    bottom: -35px;
+  }
+  .country-select .nepal-country {
+    height: 40vw;
+  }
+  .world-tour {
+    padding: 48px;
+  }
+  .world-tour {
+    h2 {
+      margin: 0 auto;
+      color: #fff;
+      max-width: 400px;
+      font-size: 40px;
+    }
+    p {
+      font-size: 22px;
+    }
+  }
+  .offer-left,
+  .offer-right {
+    width: 100%;
+  }
+  .adventures {
+    max-width: 100%;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .offer-right {
+    margin-top: 32px;
+    form,
+    .answers {
+      margin-top: 24px;
+    }
+  }
+  .first-img img {
+    object-position: top center;
+  }
+  .select {
+    margin-top: 64px;
+  }
+  .trend,
+  .seller,
+  .tour-guides-wrap {
+    margin-top: 36px;
+  }
+  .offer-left,
+  .world-tour {
+    margin-top: 48px;
+  }
+  .top-destinations,
+  .best-sold {
+    margin-top: 28px;
+  }
+  .best-sold {
+    width: calc((100% / 3) - 8px);
+  }
+  .offers .dots-pic {
+    top: 60px;
+  }
+  footer {
+    margin-top: 48px;
+  }
+  .contact-head {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .vector-arrow {
+    width: 26px;
+    height: 30px;
+  }
+  .contact-us {
+    padding-bottom: 12px;
+  }
+  .check-btn {
+    padding: 10px 18px;
+  }
+
+  .col-lg-4 {
+    @include flex;
+    align-items: center;
+    margin-top: 24px;
+    justify-content: space-between;
+  }
+  form {
+    width: 70%;
+  }
+  form,
+  .form-group {
+    margin: 0;
+  }
+  .privacy-policy .privacy,
+  .social-list {
+    margin-top: 40px;
+  }
+
+  .privacy-policy .social-link,
+  .privacy-policy .privacy {
+    font-size: 16px;
+  }
+  .privacy-policy {
+    padding: 8px;
+  }
+  .get-touch .contact-head {
+    max-width: 200px;
+  }
+  //SEARCH PAGE
+  .popular-choice {
+    display: none;
+  }
+  .main-right {
+    margin-left: -15px;
+  }
+  // Tour Page
+  .gallery-choice {
+    .gallery-r {
+      width: 100%;
+    }
+    .gallery-l {
+      width: 100%;
+      margin-top: 16px;
+      order: 2;
+      .gallery-left {
+        display: flex;
+        column-gap: 8px;
+        flex-wrap: wrap;
+        li {
+          width: calc(25% - 6px);
+        }
+      }
+    }
+  }
+  .gallery-left li {
+    height: 13vw;
+  }
+  .sandy-left,
+  .sandy-right {
+    width: 100%;
+  }
+  .person-info form {
+    width: 100%;
+  }
+  .price-per {
+    font-size: 30px;
+    margin-right: 8px;
+  }
+  .per {
+    font-size: 13px;
+    margin-top: 8px;
+  }
+  .percentage {
+    padding: 8px 20px;
+    span {
+      font-size: 14px;
+    }
+  }
+  .price-info {
+    margin-top: 8px;
+  }
+  .ask-question {
+    margin-top: 24px;
+  }
+  .sandy-rating.mt-3 {
+    margin-top: 8px !important;
+  }
+  .overview {
+    margin-top: 28px;
+  }
+  #faq .right-overview {
+    border-bottom: 0;
+  }
+  .sandy-right {
+    margin-top: 24px;
+  }
+  .gallery-pic {
+    margin-top: 30px;
+  }
+  .country-bottom {
+    width: 85%;
+    left: 7%;
+  }
+  .your-destination {
+    input {
+      width: 165px;
+    }
+    .datepicker {
+      width: 140px;
+    }
+  }
+  #activity {
+    width: 125px;
+  }
+  .big-search {
+    width: 50px;
+    height: 50px;
+    padding: 16px;
+  }
+  #map {
+    height: 45vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar-nav {
+    width: 38vw;
+  }
+  .close-btn {
+    height: 24px;
+    width: 24px;
+    right: 12px;
+    top: 20px;
+    .fa {
+      font-size: 13px;
+    }
+  }
+
+  .sidebar-logo a,
+  .logo {
+    font-size: 26px;
+  }
+
+  :is(.select-one, .trending-wrap, .top-destinations, .tour-guides-wrap, .recently-viewed).owl-carousel
+    .owl-nav
+    button.owl-prev,
+  :is(.select-one, .trending-wrap, .top-destinations, .tour-guides-wrap, .recently-viewed).owl-carousel
+    .owl-nav
+    button.owl-next {
+    width: 26px;
+    height: 26px;
+    padding: 6px !important;
+  }
+  :is(.select-one, .trending-wrap, .top-destinations, .tour-guides-wrap, .recently-viewed).owl-theme
+    .owl-nav,
+  :is(.select-one, .trending-wrap, .top-destinations, .tour-guides-wrap, .recently-viewed).owl-theme
+    .owl-nav.disabled
+    + .owl-dots {
+    top: -95px;
+  }
+  .select-head h3,
+  .best-seller h3 {
+    font-size: 28px;
+  }
+  .select-one,
+  .trending-wrap,
+  .top-destinations,
+  .tour-guides-wrap {
+    margin-top: 24px;
+  }
+  .select-icon {
+    margin-top: 30px;
+  }
+  .best-sold {
+    width: 100%;
+  }
+  .destinations .colum:nth-child(1),
+  .destinations .colum:nth-child(4) {
+    grid-column: 1/6;
+  }
+  .destinations .colum:nth-child(2) {
+    grid-column: 6/-1;
+    grid-row: span 2;
+  }
+  .destinations .colum:nth-child(3) {
+    grid-column: 1/-1;
+  }
+  .destinations .colum:nth-child(5) {
+    grid-column: 1/7;
+  }
+  .destinations .colum:nth-child(6) {
+    grid-column: 7/-1;
+  }
+  .destinations {
+    grid-template-rows: repeat(4, 250px);
+  }
+  .trend,
+  .seller,
+  .tour-guides-wrap {
+    margin-top: 24px;
+  }
+  .trend,
+  .seller,
+  .tour-guides-wrap {
+    margin-top: 24px;
+  }
+  .img-part {
+    height: 45vw;
+    img {
+      border-radius: 12px;
+    }
+  }
+  .check-btn {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+  .best-seller-text {
+    font-size: 15px;
+  }
+  .top-destinations,
+  .best-sold {
+    margin-top: 16px;
+  }
+  .tour-guides {
+    .right-part,
+    .left-part {
+      width: 100%;
+    }
+    .right-part {
+      margin-left: 0 !important;
+      margin-top: 24px;
+    }
+    .about-tour {
+      margin-top: 16px;
+    }
+    .photograph-name {
+      max-width: 100%;
+    }
+  }
+  .privacy-policy .privacy,
+  .social-list {
+    margin-top: 16px;
+  }
+  .world-tour {
+    margin: 0;
+    padding: 32px;
+    h2 {
+      font-size: 32px;
+    }
+  }
+  .offer-left,
+  .offer-right {
+    margin-top: 24px;
+  }
+  .adventures {
+    font-size: 28px;
+  }
+  .offer-right .reason {
+    max-width: 100%;
+  }
+  form {
+    width: 100%;
+  }
+  .question {
+    padding: 0;
+    .col-md-6 {
+      flex: 0 0 100%;
+    }
+    .little-dots {
+      display: none;
+    }
+    .second {
+      margin-top: 24px;
+    }
+    .first .base,
+    .second .base {
+      margin-top: 16px;
+    }
+  }
+  footer {
+    margin-top: 32px;
+  }
+  .footer-top {
+    padding-bottom: 16px;
+    .footer-contact {
+      margin-top: 16px;
+    }
+  }
+  .get-touch {
+    margin-bottom: 16px;
+    .touch {
+      font-size: 18px;
+    }
+    .contact-head {
+      display: none;
+    }
+  }
+  .our-address {
+    align-items: center;
+    width: 100% !important;
+  }
+  .our-offices {
+    @include flex;
+    .offices:not(:first-child) {
+      margin: 0 16px;
+    }
+    p,
+    .vector-arrow {
+      margin-top: 0 !important;
+    }
+  }
+  .contact-head {
+    font-size: 18px;
+    line-height: 36px;
+  }
+  .contact-us .world-icon {
+    width: 42px;
+    height: 42px;
+  }
+  .col-lg-4 .get-touch {
+    display: none;
+  }
+  .privacy-policy .privacy,
+  .social-list {
+    margin-top: 12px;
+  }
+  .privacy-policy .social-link,
+  .privacy-policy .privacy {
+    font-size: 14px;
+  }
+  .privacy-policy .social-list li:not(:last-child) {
+    margin-right: 6px;
+  }
+  .privacy-policy {
+    padding: 8px 0;
+  }
+  .contact-us .our-address .our-offices {
+    margin-left: 32px;
+  }
+  .payment p {
+    max-width: 100%;
+  }
+  .country-bottom {
+    position: static;
+    width: 100%;
+    margin-top: 16px;
+    border: 1px solid $gray-border;
+  }
+  .country-select .nepal-country {
+    height: 45vw;
+  }
+
+  .country-select .country-text .item h1 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .country-select .country-text {
+    padding: 50px 40px;
+  }
+  .payment {
+    flex-direction: column;
+  }
+  .payment > p {
+    display: none;
+  }
+  .online-pay-wrap {
+    max-width: 100%;
+  }
+  .online-text p {
+    margin-bottom: 4px;
+  }
+  .country-tour.owl-theme .owl-nav {
+    right: -10px;
+  }
+  // Search Page
+  .main-right .col-lg-6 {
+    flex: 0 0 100%;
+  }
+  .search-section {
+    margin: 0;
+  }
+  .main-section {
+    margin-top: 24px;
+  }
+  // TOUR PAGE
+  .gallery-main {
+    height: 45vw;
+  }
+  .sandy-section {
+    margin-top: 24px;
+  }
+  .breadcrumb {
+    margin-bottom: 8px;
+  }
+  .pic-number {
+    right: 14px;
+    bottom: 16px;
+    padding: 7px 10px;
+  }
+  .pic-number .slider-counter {
+    font-size: 12px;
+  }
+  .gallery-l {
+    display: none;
+  }
+  .gallery-pic {
+    margin-top: 20px;
+  }
+  .country-bottom {
+    column-gap: 24px;
+    align-items: center;
+    margin-top: 24px;
+  }
+  .country-bottom .your-destination,
+  .big-search {
+    width: calc(50% - 12px);
+    margin-left: 0;
+  }
+  .big-search {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 16px;
+    height: auto;
+    padding: 14px;
+
+    .d-tablet {
+      display: block;
+      color: $main-white;
+      font-family: $medium;
+      font-size: 17px;
+      margin-right: 16px;
+      letter-spacing: 1px;
+    }
+    img {
+      width: 18px;
+    }
+  }
+  .country-bottom .your-destination:nth-child(3) {
+    margin-top: 16px;
+  }
+  .select {
+    margin-top: 28px;
+  }
+  #map {
+    height: 55vw;
+  }
+  .modal-body .close {
+    width: 32px;
+    height: 32px;
+    span {
+      font-size: 26px;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    padding: 0 8px;
+  }
+  .sidebar-nav {
+    padding: 25px 15px;
+    width: 45vw;
+  }
+  .sidebar-menu-items li {
+    padding: 8px !important;
+    padding-left: 0 !important;
+    a {
+      font-size: 14px;
+    }
+  }
+  .logo {
+    font-size: 24px;
+  }
+  .country-select .nepal-country {
+    height: 50vw;
+  }
+  .select-head h3,
+  .best-seller h3 {
+    font-size: 22px;
+  }
+  .select-icon {
+    margin-top: 20px;
+  }
+  .select-one,
+  .trending-wrap,
+  .top-destinations,
+  .tour-guides-wrap {
+    margin-top: 18px;
+  }
+  .destinations .colum {
+    grid-column: 1/-1 !important;
+    grid-row: span 1 !important;
+    height: 250px;
+  }
+  :is(.select-one, .trending-wrap, .top-destinations, .tour-guides-wrap, .recently-viewed).owl-theme
+    .owl-nav,
+  :is(.select-one, .trending-wrap, .top-destinations, .tour-guides-wrap, .recently-viewed).owl-theme
+    .owl-nav.disabled
+    + .owl-dots {
+    top: -85px;
+  }
+  .trend,
+  .seller,
+  .tour-guides-wrap {
+    margin-top: 16px;
+  }
+  .best-seller h3 {
+    margin-bottom: 0;
+  }
+  .seller-text {
+    margin-top: 12px;
+  }
+  .left-part {
+    height: 80vw;
+    .photographer-img img {
+      object-position: center;
+    }
+  }
+  .photograph-name {
+    font-size: 24px;
+  }
+  .tour-guides .about-tour {
+    flex-wrap: wrap;
+    .journey:last-child {
+      margin-top: 16px;
+    }
+  }
+  .journey p {
+    margin-top: 8px;
+  }
+  .world-tour h2 {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .world-tour p {
+    font-size: 18px;
+  }
+  .offers .dots-pic {
+    display: none;
+  }
+  .whole-pic,
+  .two-img {
+    width: calc(50% - 12px);
+    height: 50vw;
+    img {
+      object-position: top center;
+    }
+  }
+  .offer-left {
+    height: auto;
+    padding: 0;
+    gap: 12px;
+    margin-top: 0;
+  }
+  .first-img {
+    width: 48%;
+    height: 100%;
+  }
+  .first-img:first-child {
+    display: none;
+  }
+  .two-img .first-img {
+    height: 100%;
+  }
+  .adventures {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .offer-right {
+    margin-top: 16px;
+    padding: 0;
+  }
+  .tour-title,
+  .reason {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 12px;
+  }
+  .banner {
+    display: none;
+  }
+  .question {
+    margin-top: 24px;
+    .first,
+    .second {
+      padding: 16px;
+      .base {
+        margin-top: 8px;
+        padding: 12px;
+        width: 48px;
+        height: 48px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 28px;
+      }
+    }
+  }
+  footer {
+    margin-top: 30px;
+  }
+  .contact-us .our-address .our-offices {
+    margin-left: 20px;
+  }
+  .tour-guides .about-tour {
+    margin-top: 0;
+  }
+  .tour-guides .right-part {
+    margin-top: 10px;
+  }
+  .row {
+    .col-6 {
+      margin-top: 16px;
+    }
+    .col-sm-4 {
+      padding: 0;
+    }
+  }
+  .footer-title {
+    margin-bottom: 2px;
+  }
+  .footer-link {
+    line-height: 24px;
+  }
+  .col-lg-4 {
+    margin-top: 16px;
+  }
+  .envelope {
+    top: 9px;
+  }
+  .email-send {
+    padding-top: 22px;
+    padding-bottom: 22px;
+  }
+  .send-btn {
+    line-height: 15px;
+    padding: 10px;
+    font-size: 13px;
+  }
+  .form-control::placeholder {
+    font-size: 14px !important;
+  }
+  .img-part {
+    height: 50vw;
+  }
+  // TOUR PAGE
+  .gallery-l {
+    display: none;
+  }
+  .sandy-title h1 {
+    font-size: 24px;
+  }
+  .paragraphs li a {
+    font-size: 14px;
+  }
+  .overview .left-overview {
+    width: 12%;
+  }
+  .sandy-wrap {
+    padding: 0 12px;
+  }
+  .overview {
+    margin-top: 16px;
+  }
+  .tour-details {
+    margin-top: 24px;
+  }
+  .gallery-slider .owl-nav {
+    top: 38%;
+    margin: 0 12px;
+  }
+  .gallery-main {
+    height: 55vw;
+  }
+  .ask-question {
+    margin-top: 16px;
+  }
+  .big-search {
+    justify-content: space-around;
+  }
+  .country-select .country-text .item h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .modal.show .modal-dialog {
+    -webkit-transform: none;
+    transform: none;
+    padding: 4px;
+  }
+}
+
+@media screen and (max-width: 472px) {
+  :is(.select-one, .trending-wrap, .top-destinations, .tour-guides-wrap, .recently-viewed).owl-theme
+    .owl-nav,
+  :is(.select-one, .trending-wrap, .top-destinations, .tour-guides-wrap, .recently-viewed).owl-theme
+    .owl-nav.disabled
+    + .owl-dots {
+    top: -108px;
+  }
+  :is(.select-one, .trending-wrap, .top-destinations, .tour-guides-wrap, .recently-viewed).owl-carousel
+    .owl-nav
+    button.owl-prev,
+  :is(.select-one, .trending-wrap, .top-destinations, .tour-guides-wrap, .recently-viewed).owl-carousel
+    .owl-nav
+    button.owl-next {
+    width: 24px;
+    height: 24px;
+    padding: 6px !important;
+  }
+  .owl-theme .owl-nav [class*='owl-'] {
+    margin: 3px;
+  }
+  .sidebar-nav {
+    padding: 25px 12px;
+    width: 50vw;
+  }
+  .sidebar-logo a {
+    font-size: 22px;
+  }
+  .close-btn .fa {
+    font-size: 11px;
+  }
+  .close-btn {
+    height: 20px;
+    width: 20px;
+  }
+
+  .footer-head .categories {
+    margin-left: 16px;
+    font-size: 14px;
+  }
+  .footer-head .quick-links {
+    .plus-icon {
+      width: 20px;
+      height: 20px;
+      padding: 3px;
+      img {
+        margin: 0;
+      }
+    }
+    span {
+      font-size: 15px;
+    }
+  }
+  .email,
+  .phone {
+    font-size: 14px;
+  }
+  .our-offices .offices:not(:first-child) {
+    margin: 0px 12px;
+  }
+  .contact-us .world-icon {
+    width: 36px;
+    height: 36px;
+    padding: 5px;
+  }
+  .country-select .nepal-country {
+    height: 60vw;
+  }
+  .country-select .country-text {
+    padding: 30px 30px 0;
+    display: flex;
+    height: 45%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .country-select .country-text .item h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .country-select .country-text .item p {
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  .online-text p,
+  .pay-icon {
+    display: none;
+  }
+  .online-pay-wrap .online-text {
+    margin-left: 0;
+  }
+  .country-tour.owl-theme .owl-nav {
+    bottom: -60px;
+  } // TOUR PAGE
+  .overview .left-overview {
+    display: none;
+  }
+  .sandy-title h1 {
+    font-size: 22px;
+  }
+  .overview .right-overview {
+    width: 100%;
+  }
+  .gallery-slider.owl-theme .owl-nav [class*='owl-'] {
+    width: 28px;
+    height: 28px;
+  }
+  .pic-number {
+    right: 10px;
+    bottom: 10px;
+    padding: 6px 8px;
+  }
+  .paragraphs ul li {
+    width: calc(100% / 3);
+  }
+
+  .paragraphs ul li:nth-child(4),
+  .paragraphs ul li:nth-child(5),
+  .paragraphs ul li:nth-child(6) {
+    margin-top: 12px;
+  }
+
+  .paragraphs .sandy-rating ul li {
+    margin-top: 0;
+  }
+  .tour-details .col-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 12px !important;
+  }
+  .room-type {
+    justify-content: center;
+    text-align: center;
+    .shared {
+      width: 80%;
+      margin-bottom: 16px;
+    }
+  }
+  .plus-icon2 {
+    left: 47%;
+    top: 53%;
+    width: 34px;
+    height: 34px;
+  }
+  .sandy-rating {
+    margin-left: 6px;
+  }
+  .percentage {
+    padding: 4px 10px;
+  }
+  .percentage span {
+    font-size: 12px;
+  }
+  .big-search {
+    .d-tablet {
+      font-size: 16px;
+      letter-spacing: 0.5px;
+    }
+
+    img {
+      width: 16px;
+    }
+  }
+  .modal-body .close {
+    width: 30px;
+    height: 30px;
+  }
+  #map {
+    height: 65vw;
+  }
+  .gm-control-active > img:nth-child(1) {
+    height: 15px !important;
+    width: 15px !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .sidebar-nav {
+    padding: 25px 10px;
+    width: 55vw;
+  }
+  .sidebar-menu-items li a {
+    font-size: 13px;
+  }
+  .logo {
+    font-size: 22px;
+  }
+  .sidebar-logo a {
+    font-size: 20px;
+  }
+  .close-btn {
+    right: 10px;
+    top: 12px;
+  }
+  .sidebar-logo.my-3 {
+    margin: 12px 0 !important;
+  }
+  .select-head h3,
+  .best-seller h3,
+  .price {
+    font-size: 20px;
+  }
+  .best-seller-text {
+    font-size: 14px;
+  }
+  .ml-8 {
+    margin: 0 !important;
+  }
+  .trending {
+    padding: 8px;
+  }
+  .destinations .colum {
+    height: 200px;
+  }
+  .destinations {
+    grid-template-rows: repeat(4, 200px);
+  }
+  .img-part {
+    height: 70vw;
+  }
+  .world-tour {
+    padding: 20px;
+    h2 {
+      font-size: 20px;
+      line-height: 34px;
+    }
+    .check-btn {
+      margin-top: 12px;
+    }
+  }
+  .whole-pic,
+  .two-img {
+    height: 80vw;
+    width: 100%;
+  }
+  .adventures {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .tour-title,
+  .reason {
+    margin-top: 0;
+  }
+  .offer-right .reason {
+    font-size: 16px;
+    margin-top: 8px;
+    line-height: 24px;
+  }
+  .footer-head .quick-links {
+    width: 100%;
+  }
+  .footer-contact {
+    .phone {
+      font-size: 13px;
+    }
+    span {
+      padding-left: 6px;
+      margin-left: 6px;
+    }
+  }
+  .world-icon {
+    display: none;
+  }
+  .contact-us .our-address .our-offices {
+    margin-left: 0;
+  }
+  .contact-us .offices {
+    font-size: 15px;
+  }
+  .vector-arrow img {
+    width: 80%;
+  }
+  .row.mt-3 {
+    margin-top: 8px !important;
+  }
+  .payment-logs {
+    display: none !important;
+  }
+  .privacy-policy .social-list li:not(:last-child)::after {
+    padding-left: 3px;
+  }
+  .privacy-policy .social-link,
+  .privacy-policy .privacy {
+    font-size: 13px;
+  }
+  .payment {
+    margin-top: 10px;
+  }
+  .country-select .nepal-country {
+    height: 70vw;
+  }
+  .country-select .country-text {
+    padding: 20px 20px 0;
+    height: 35%;
+  }
+  .country-tour.owl-theme .owl-nav {
+    bottom: -37px;
+    right: -4px;
+  }
+  .country-tour.owl-carousel .owl-nav button.owl-prev,
+  .country-tour.owl-carousel .owl-nav button.owl-next {
+    width: 22px;
+    height: 22px;
+  }
+  .country-select .country-text .item h1 {
+    font-size: 24px;
+    line-height: 38px;
+  }
+  .item {
+    margin-bottom: 16px;
+  }
+  .country-bottom .your-destination,
+  .big-search {
+    width: 100%;
+    margin-top: 8px !important;
+  }
+  .big-search {
+    justify-content: space-between;
+    margin-top: 12px !important;
+  }
+  .select {
+    margin-top: 24px;
+  }
+  .mountain-tour {
+    font-size: 17px;
+  } // TOUR PAGE
+  .gallery-main {
+    height: 60vw;
+  }
+  .sandy-title h1 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .room-type,
+  .tour-details,
+  .sandy-right {
+    margin-top: 18px;
+  }
+  .sandy-rating p {
+    font-size: 12px;
+  }
+  .card-title span {
+    width: 30px;
+    height: 28px;
+  }
+  .plus-icon2 {
+    left: 46%;
+    top: 53%;
+    width: 30px;
+    height: 30px;
+  }
+  .price-per {
+    font-size: 24px;
+    margin-right: 4px;
+  }
+  .per {
+    font-size: 12px;
+    margin-top: 0;
+  }
+  .percentage {
+    padding: 4px 8px;
+  }
+  .available {
+    font-size: 14px;
+  }
+  .ask-question {
+    font-size: 13px;
+  }
+  #navMenu > span {
+    width: 20px;
+  }
+  #map {
+    height: 80vw;
+  }
+}

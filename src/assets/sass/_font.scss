@@ -1,0 +1,25 @@
+// page all font-family
+$regular: 'Poppins-Regular';
+$medium: 'Poppins-Medium';
+$bold: 'Poppins-Bold';
+$semi: 'Poppins-SemiBold';
+/* fonts starts */
+
+@font-face {
+  font-family: $regular;
+  src: url('fonts/Poppins/Poppins-Regular.ttf');
+}
+@font-face {
+  font-family: $medium;
+  src: url('fonts/Poppins/Poppins-Medium.ttf');
+}
+@font-face {
+  font-family: $bold;
+  src: url('fonts/Poppins/Poppins-Bold.ttf');
+}
+@font-face {
+  font-family: $semi;
+  src: url('fonts/Poppins/Poppins-SemiBold.ttf');
+}
+
+/* fonts ends */
