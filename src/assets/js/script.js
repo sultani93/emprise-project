@@ -187,6 +187,7 @@ $('.top-destinations').owlCarousel({
   dots: false,
   margin: 0,
   nav: false,
+  autoplay: 2000,
   navText: [prevarrow, nextarrow],
   responsive: {
     0: {
@@ -199,6 +200,7 @@ $('.tour-guides-wrap').owlCarousel({
   dots: false,
   margin: 0,
   nav: false,
+  autoplay: 2000,
   navText: [prevarrow, nextarrow],
   responsive: {
     0: {
@@ -216,6 +218,7 @@ $('.recently-viewed').owlCarousel({
   loop: true,
   margin: 16,
   nav: false,
+  toplay: 2000,
   navText: [prevarrow, nextarrow],
   responsive: {
     0: {
@@ -244,6 +247,7 @@ $('.gallery-slider')
     items: 1,
     loop: true,
     margin: 0,
+    autoplay: 2000,
     nav: true,
     navText: [prevarrow, nextarrow],
   })
