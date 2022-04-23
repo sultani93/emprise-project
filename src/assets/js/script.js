@@ -1,73 +1,3 @@
-/* starts contact map */
-// if ($('#map').length > 0) {
-//   function initMap(getId) {
-//     if (document.getElementById(getId)) {
-//       let lat = parseFloat(document.getElementById(getId).getAttribute('lat'))
-//       let lng = parseFloat(document.getElementById(getId).getAttribute('lng'))
-
-//       var location = { lat, lng }
-//       map = new google.maps.Map(document.getElementById(getId), {
-//         zoom: 16,
-//         disableDefaultUI: true,
-//         center: location,
-//         mapTypeId: google.maps.MapTypeId.ROADMAP,
-//       })
-//       marker = new google.maps.Marker({
-//         map: map,
-//         position: location,
-//         animation: google.maps.Animation.DROP,
-//         icon: './assets/css/icons/map-marker.svg',
-//       })
-//       marker.addListener('click', toggleBounce)
-//     }
-//   }
-//   function toggleBounce() {
-//     if (marker.getAnimation() !== null) {
-//       marker.setAnimation(null)
-//     } else {
-//       marker.setAnimation(google.maps.Animation.BOUNCE)
-//     }
-//   }
-//   initMap('map')
-//   google.maps.event.addDomListener(window, 'load', initMap)
-// }
-/* ends contact map */
-
-//   new WOW().init()
-//   if (window.matchMedia('(max-width: 1024px)').matches) {
-//     $('*').removeClass('wow')
-//     $('*').removeClass('fadeInUp')
-//     $('*').removeClass('fadeInDown')
-//     $('*').removeClass('slideInUp')
-//     $('*').removeClass('animated')
-//   }
-
-//   $('.branch-item').click(function () {
-//     $('#map').attr('lat', $(this).attr('lat'))
-//     $('#map').attr('lng', $(this).attr('lng'))
-//     initMap('map')
-//   })
-// })
-// burdandi
-// function initMap() {
-//   // Map options
-//   var options = {
-//     zoom: 8,
-//     center: { lat: 40.409264, lng: 49.867092 },
-//   }
-//   // new map
-//   var map = new google.maps.Map(document.getElementById('map'), options)
-//   // Marker
-//   var marker = new google.maps.Marker({
-//     position: { lat: 40.409264, lng: 49.867092 },
-//     map: map,
-//   })
-
-//   var options = {
-//     zoom: 8,
-//     center: { lat: 40.409264, lng: 49.867092 },
-//   };
-
 ;(function () {
   var parent = document.querySelector('#rangeSlider')
   if (!parent) return
@@ -276,21 +206,24 @@ close.addEventListener('click', function () {
   sidebar.classList.remove('show-menu')
   hamburger.classList.remove('active')
 })
-
-function initMap() {
-  // Map options
-  var options = {
-    zoom: 8,
-    center: { lat: 40.409264, lng: 49.867092 },
+if ($('#map').length > 0) {
+  function initMap() {
+    // Map options
+    var options = {
+      zoom: 8,
+      center: { lat: 40.409264, lng: 49.867092 },
+    }
+    // new map
+    var map = new google.maps.Map(document.getElementById('map'), options)
+    // Marker
+    var marker = new google.maps.Marker({
+      position: { lat: 40.409264, lng: 49.867092 },
+      map: map,
+    })
   }
-  // new map
-  var map = new google.maps.Map(document.getElementById('map'), options)
-  // Marker
-  var marker = new google.maps.Marker({
-    position: { lat: 40.409264, lng: 49.867092 },
-    map: map,
-  })
 }
+// Rotate Arrow
+
 // slide range
 var x = 1
 document.getElementById('output-area').innerHTML = x
