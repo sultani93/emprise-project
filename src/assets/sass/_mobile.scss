@@ -476,12 +476,15 @@
   .our-offices {
     @include flex;
     .offices:not(:first-child) {
-      margin: 0 16px;
+      margin: 0;
     }
     p,
     .vector-arrow {
       margin-top: 0 !important;
     }
+  }
+  .vector-arrow {
+    margin-left: 24px;
   }
   .contact-head {
     font-size: 18px;
@@ -921,9 +924,7 @@
   .phone {
     font-size: 14px;
   }
-  .our-offices .offices:not(:first-child) {
-    margin: 0px 12px;
-  }
+
   .contact-us .world-icon {
     width: 36px;
     height: 36px;

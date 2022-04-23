@@ -396,6 +396,8 @@ nav button.owl-prev {
   padding: 15px 25px;
   border-radius: 32px;
   transition: 0.3s;
+  display: block;
+  cursor: pointer;
   &:hover {
     background-color: $main-black;
   }
@@ -477,7 +479,7 @@ nav button.owl-prev {
   opacity: 0;
   @include transition;
 }
-.best-sold:hover .no-visible {
+:is(.best-sold:hover, .recent-post:hover) .no-visible {
   opacity: 1;
 }
 .seller-text {
@@ -679,6 +681,13 @@ nav button.owl-prev {
     color: $green;
     display: inline-block;
     margin-top: 24px;
+    transition: 0.3s;
+    z-index: 100;
+    cursor: pointer;
+    &:hover {
+      background-color: $main-black;
+      color: $main-white;
+    }
   }
   .mask {
     position: absolute;
@@ -692,6 +701,7 @@ nav button.owl-prev {
     top: -260px;
     right: -474px;
     overflow: hidden;
+    pointer-events: none;
   }
 }
 .offers {
@@ -888,12 +898,20 @@ form {
   @include header-text;
   color: $main-white;
   text-transform: none;
+  transition: 0.3s;
+  &:hover {
+    color: $green;
+  }
 }
 .phone {
   display: inline-block;
   margin-top: 8px;
   @include header-text;
   color: $main-white;
+  transition: 0.3s;
+  &:hover {
+    color: $green;
+  }
 }
 footer {
   margin-top: 72px;
@@ -902,6 +920,9 @@ footer {
   @include flex;
   .quick-links {
     @include flex;
+    &:hover span {
+      color: $green;
+    }
     .plus-icon {
       width: 25px;
       height: 25px;
@@ -912,6 +933,7 @@ footer {
       justify-content: center;
       align-items: center;
       margin-right: 8px;
+
       img {
         @include icon-wrap;
         margin-left: 1px;
@@ -920,6 +942,7 @@ footer {
     span {
       @include seller-title;
       font-family: $semi;
+      transition: 0.3s;
     }
   }
   .categories {
@@ -931,12 +954,11 @@ footer {
 }
 .footer-contact {
   @include flex;
-  a,
-  span {
+  a {
     color: $black-gray;
     margin-top: 0%;
   }
-  span {
+  .email {
     padding-left: 8px;
     border-left: 1px solid $black-gray;
     margin-left: 8px;
@@ -977,11 +999,15 @@ footer {
     display: flex;
     .our-offices {
       margin-left: 16px;
-      transition: 0.3s;
+
+      cursor: pointer;
       &:hover .offices {
         color: $green;
       }
     }
+  }
+  .offices {
+    transition: 0.3s;
   }
   .touch {
     color: $green;
@@ -1537,6 +1563,12 @@ footer {
   @include med-text;
   color: $light-gray;
 }
+.breadcrumb-item:not(.active) {
+  transition: 0.3s;
+  :hover {
+    color: $green;
+  }
+}
 
 .sandy-title h1 {
   font-family: $bold;
@@ -1731,6 +1763,12 @@ footer {
 }
 .tab-navigation {
   margin-top: 40px;
+}
+.tab-navigation .nav-link:not(.active) {
+  transition: 0.3s;
+  &:hover {
+    color: $green;
+  }
 }
 .nav-tabs {
   border-bottom: 1px solid $gray-border;
@@ -1952,11 +1990,15 @@ footer {
     @include icon-wrap;
   }
 }
-.available {
+.btn.available {
   width: 100%;
   background: linear-gradient(90deg, #ff9d4b 9.15%, #fa126c 101.52%);
   color: $main-white;
   font-family: $semi;
+  transition: 0.3s;
+  &:hover {
+    color: $green;
+  }
 }
 .ask-question {
   font-size: 14px;
